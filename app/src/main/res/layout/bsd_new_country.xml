@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textSize="16dp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:text="@string/PresupuestosLabel"/>
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="10dp"
+       android:background="@color/green"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginVertical="8dp"
+       android:layout_marginStart="16dp"
+       android:text="Presupuesto #"
+       android:textStyle="bold"/>
+   <EditText
+       android:id="@+id/bsd_country_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginVertical="8dp"
+       android:layout_marginStart="16dp"
+       android:hint="Nombre de Categoria #"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Enfocado"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/bsd_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:hint="En Que Se Gastara"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Plazo"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bsd_country_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:hint="Tiempo A Cumplir: ejem 2 meses" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Imagen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bsd_country_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:hint="Image URL" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Tipo De Gasto"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bsd_country_continent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="16dp"
+        android:hint="Ahorro, Control de gasto, Control Financiero" />
+
+    <Button
+        android:id="@+id/bsd_submit"
+        style="@style/selectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Nuevo Presupuesto" />
+</androidx.appcompat.widget.LinearLayoutCompat>

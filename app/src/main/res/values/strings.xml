@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Utilidades</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo_first_fragment">Presupuesto</string>
+    <string name="first_label">Home</string>
+    <string name="second_label">Presupuesto</string>
+    <string name="third_label">Nombre</string>
+    <string name="fourth_label">Fourth</string>
+    <string name="title_login">Login</string>
+
+    <string name="food_label">Comida</string>
+    <string name="others_label">Otros</string>
+    <string name="hobbies_label">Hobbies</string>
+    <string name="important_label">Cosas Importates</string>
+    <string name="newfood_label">Agregar Comida</string>
+    <string name="newothers_label">Agregar Otros</string>
+    <string name="newhobbies_label">Agregar Hobbies</string>
+    <string name="newimportant_label">Agregar Cosas Importates</string>
+
+
+    <string name="label_flag">Bandera</string>
+
+    <string name="password_label">Password</string>
+    <string name="username_label">Username</string>
+    <string name="buttonLogin">Submit</string>
+
+    <string name="to_first_button">To First Fragment</string>
+    <string name="to_second_button">To Second Fragment</string>
+    <string name="to_third_button">To Third Fragment</string>
+    <string name="to_fourth_button">To Fourth Fragment</string>
+
+    <string name="PresupuestosLabel">Presupuestos</string>
+    <string name="porcentaje">Porcentaje</string>
+    <string name="totaldinero">Total</string>
+    <string name="gastado">Gastado</string>
+    <string name="disponible">Disponible</string>
+
+    <string name="error_label">!ERROR</string>
+    <string name="empty_name_validation">Please type in your name</string>
+</resources>
